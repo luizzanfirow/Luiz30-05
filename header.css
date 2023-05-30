@@ -1,0 +1,32 @@
+.cabeçalho__menu-hamburguer {
+    width: 24px;
+    height: 24px;
+    background-image: url(..https://o.remove.bg/downloads/a5d41e2e-60b5-4429-838d-bc8cc857add7/55003-removebg-preview.png);
+    background-repeat: no-repeat;
+    background-position: center ;
+    display: inline-block;
+}
+
+.cabeçalho {
+    background-color: var(--branco);
+    display: flex;
+    justify-content: space-between ;
+}
+
+.container  {
+    display: flex;
+    align-items: center;
+}
+
+.container__imagem  {
+    padding: 1em;
+}
+
+.lista-menu {
+    display: none;
+}
+
+
+.container__botao:checked ~ .lista-menu {
+    display: block;
+}
